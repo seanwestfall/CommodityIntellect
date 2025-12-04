@@ -1,6 +1,7 @@
 import { Hero } from "@/components/landing/Hero";
 import { Features } from "@/components/landing/Features";
 import { TrustSection } from "@/components/landing/TrustSection";
+import { DataMonetization } from "@/components/landing/DataMonetization";
 import { DemoSection } from "@/components/landing/DemoSection";
 import { Footer } from "@/components/landing/Footer";
 
@@ -15,7 +16,7 @@ export default function Home() {
           </div>
           <div className="hidden md:flex gap-6 text-sm font-medium text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Solutions</a>
-            <a href="#" className="hover:text-primary transition-colors">Data</a>
+            <a href="#" className="hover:text-primary transition-colors">Data Marketplace</a>
             <a href="#" className="hover:text-primary transition-colors">Enterprise</a>
           </div>
           <button className="px-4 py-2 text-sm font-medium bg-white/5 hover:bg-white/10 border border-white/10 rounded-none transition-all">
@@ -28,6 +29,7 @@ export default function Home() {
         <Hero />
         <TrustSection />
         <Features />
+        <DataMonetization />
         <DemoSection />
       </main>
       
