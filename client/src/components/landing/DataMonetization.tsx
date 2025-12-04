@@ -1,6 +1,6 @@
 import { Coins, Database, Network, ArrowRightLeft, Wallet, BarChart3 } from "lucide-react";
 import { motion } from "framer-motion";
-import ragImg from "@assets/generated_images/futuristic_diagram_of_retrieval-augmented_generation_rag_pipeline.png";
+import ragImg from "@assets/generated_images/rag_data_monetization_diagram.png";
 
 export function DataMonetization() {
   return (
