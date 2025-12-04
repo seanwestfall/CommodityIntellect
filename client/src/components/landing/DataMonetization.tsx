@@ -2,6 +2,7 @@ import { Coins, Database, Network, ArrowRightLeft, Wallet, BarChart3 } from "luc
 import { motion } from "framer-motion";
 import ragImg from "@assets/generated_images/rag_data_monetization_diagram.png";
 
+// Force refresh
 export function DataMonetization() {
   return (
     <section className="py-24 bg-card/30 border-y border-white/5 relative overflow-hidden">
