@@ -15,16 +15,24 @@ export default function Home() {
             SOURCECHAIN
           </div>
           <div className="hidden md:flex gap-6 text-sm font-medium text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors">Solutions</a>
-            <a href="#" className="hover:text-primary transition-colors">Data Marketplace</a>
-            <a href="#" className="hover:text-primary transition-colors">Enterprise</a>
+            <a href="#" className="hover:text-primary transition-colors">
+              Solutions
+            </a>
+            <a href="#" className="hover:text-primary transition-colors">
+              Data Marketplace
+            </a>
+            <a href="#" className="hover:text-primary transition-colors">
+              Enterprise
+            </a>
           </div>
           <button className="px-4 py-2 text-sm font-medium bg-white/5 hover:bg-white/10 border border-white/10 rounded-none transition-all">
-            Access Portal
+            <a href="https://llm-chat-app-template.sean-westfall.workers.dev/">
+              Access Portal
+            </a>
           </button>
         </div>
       </nav>
-      
+
       <main>
         <Hero />
         <TrustSection />
@@ -32,7 +40,7 @@ export default function Home() {
         <DataMonetization />
         <DemoSection />
       </main>
-      
+
       <Footer />
     </div>
   );
