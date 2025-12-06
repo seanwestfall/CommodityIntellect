@@ -8,9 +8,9 @@ export function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroBg} 
-          alt="Global Supply Chain Network" 
+        <img
+          src={heroBg}
+          alt="Global Supply Chain Network"
           className="w-full h-full object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
@@ -40,17 +40,26 @@ export function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            The first AI platform built specifically for commodities, sourcing, and manufacturing. 
-            Secure, proprietary, and copyright-compliant.
+            The first AI platform built specifically for commodities, sourcing,
+            and manufacturing. Secure, proprietary, and copyright-compliant.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
-            <Button size="lg" className="h-14 px-8 text-lg rounded-none border-2 border-primary bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group w-full sm:w-auto">
+            <Button
+              size="lg"
+              className="h-14 px-8 text-lg rounded-none border-2 border-primary bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group w-full sm:w-auto"
+            >
               <Bot className="mr-2 h-5 w-5" />
-              Start Chat Analysis
+              <a href="https://llm-chat-app-template.sean-westfall.workers.dev/">
+                Start Chat Analysis
+              </a>
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button size="lg" variant="outline" className="h-14 px-8 text-lg rounded-none border-white/20 bg-white/5 text-white hover:bg-white/10 w-full sm:w-auto">
+            <Button
+              size="lg"
+              variant="outline"
+              className="h-14 px-8 text-lg rounded-none border-white/20 bg-white/5 text-white hover:bg-white/10 w-full sm:w-auto"
+            >
               <Terminal className="mr-2 h-5 w-5 text-accent" />
               Launch Vibe Coder
             </Button>
@@ -67,9 +76,9 @@ export function Hero() {
             SYSTEM OPTIMAL
           </div>
           <div className="flex gap-8">
-             <span>LATENCY: 12ms</span>
-             <span>NODES: 4,291</span>
-             <span>DATA: ENCRYPTED</span>
+            <span>LATENCY: 12ms</span>
+            <span>NODES: 4,291</span>
+            <span>DATA: ENCRYPTED</span>
           </div>
         </div>
       </div>
