@@ -45,26 +45,26 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
-            <Button
-              size="lg"
-              className="h-14 px-8 text-lg rounded-none border-2 border-primary bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group w-full sm:w-auto"
-            >
-              <Bot className="mr-2 h-5 w-5" />
-              <a href="https://llm-chat-app-template.sean-westfall.workers.dev/">
+            <a href="https://llm-chat-app-template.sean-westfall.workers.dev/">
+              <Button
+                size="lg"
+                className="h-14 px-8 text-lg rounded-none border-2 border-primary bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group w-full sm:w-auto"
+              >
+                <Bot className="mr-2 h-5 w-5" />
                 Start Chat Analysis
-              </a>
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="h-14 px-8 text-lg rounded-none border-white/20 bg-white/5 text-white hover:bg-white/10 w-full sm:w-auto"
-            >
-              <Terminal className="mr-2 h-5 w-5 text-accent" />
-              <a href="https://alphonse86-deepsitev3.hf.space/">
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
+            <a href="https://alphonse86-deepsitev3.hf.space/">
+              <Button
+                size="lg"
+                variant="outline"
+                className="h-14 px-8 text-lg rounded-none border-white/20 bg-white/5 text-white hover:bg-white/10 w-full sm:w-auto"
+              >
+                <Terminal className="mr-2 h-5 w-5 text-accent" />
                 Launch Vibe Coder
-              </a>
-            </Button>
+              </Button>
+            </a>
           </div>
         </motion.div>
       </div>
