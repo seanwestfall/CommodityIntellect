@@ -44,7 +44,7 @@ export function Hero() {
             and manufacturing. Secure, proprietary, and copyright-compliant.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
+          <div className="mb-100 flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
             <a href="https://llm-chat-app-template.sean-westfall.workers.dev/">
               <Button
                 size="lg"
