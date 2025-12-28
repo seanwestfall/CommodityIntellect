@@ -44,10 +44,7 @@ export function Hero() {
             and manufacturing. Secure, proprietary, and copyright-compliant.
           </p>
 
-          <div
-            style="margin-bottom:30px"
-            className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8"
-          >
+          <div className="mb-100 flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
             <a href="https://llm-chat-app-template.sean-westfall.workers.dev/">
               <Button
                 size="lg"
@@ -58,7 +55,7 @@ export function Hero() {
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </a>
-            <a href="https://acceler-wireless-llc-deepsitev3.hf.space/">
+            <a href="https://alphonse86-deepsitev3.hf.space/">
               <Button
                 size="lg"
                 variant="outline"
