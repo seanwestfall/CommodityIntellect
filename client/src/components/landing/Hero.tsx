@@ -58,7 +58,7 @@ export function Hero() {
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </a>
-            <a href="https://alphonse86-deepsitev3.hf.space/">
+            <a href="https://acceler-wireless-llc-deepsitev3.hf.space/">
               <Button
                 size="lg"
                 variant="outline"
