@@ -3,6 +3,7 @@ import { Features } from "@/components/landing/Features";
 import { TrustSection } from "@/components/landing/TrustSection";
 import { DataMonetization } from "@/components/landing/DataMonetization";
 import { DemoSection } from "@/components/landing/DemoSection";
+import { StatsSection } from "@/components/landing/StatsSection";
 import { Footer } from "@/components/landing/Footer";
 
 export default function Home() {
@@ -15,32 +16,25 @@ export default function Home() {
             SOURCECHAIN
           </div>
           <div className="hidden md:flex gap-6 text-sm font-medium text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors">
-              Solutions
-            </a>
-            <a href="#" className="hover:text-primary transition-colors">
-              Data Marketplace
-            </a>
-            <a href="#" className="hover:text-primary transition-colors">
-              Enterprise
-            </a>
+            <a href="#" className="hover:text-primary transition-colors">Solutions</a>
+            <a href="#" className="hover:text-primary transition-colors">Data Marketplace</a>
+            <a href="#" className="hover:text-primary transition-colors">Enterprise</a>
           </div>
           <button className="px-4 py-2 text-sm font-medium bg-white/5 hover:bg-white/10 border border-white/10 rounded-none transition-all">
-            <a href="https://llm-chat-app-template.sean-westfall.workers.dev/">
-              Access Portal
-            </a>
+            Access Portal
           </button>
         </div>
       </nav>
-
+      
       <main>
         <Hero />
         <TrustSection />
+        <StatsSection />
         <Features />
         <DataMonetization />
         <DemoSection />
       </main>
-
+      
       <Footer />
     </div>
   );

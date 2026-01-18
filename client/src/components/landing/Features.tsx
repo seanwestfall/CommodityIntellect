@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import { MessageSquareCode, FileCode, Database, Lock, Globe, Cpu, Server } from "lucide-react";
+import { MessageSquareCode, FileCode, Database, Lock, Globe, Cpu, Server, TrendingUp, AlertTriangle, Search } from "lucide-react";
 import chatImg from "@assets/generated_images/ai_interface_analyzing_logistics_documents.png";
 import codeImg from "@assets/generated_images/secure_data_vault_with_code_streams.png";
 import dbImg from "@assets/generated_images/high_tech_database_plugin_connector.png";
@@ -30,13 +30,49 @@ export function Features() {
     }
   ];
 
+  const insights = [
+    {
+      title: "Anticipate Risk, Improve Outcomes",
+      description: "Gain foresight with a combination of operational commodity intelligence and industry-leading analysis, all on one platform.",
+      icon: <AlertTriangle className="w-10 h-10 text-accent" />
+    },
+    {
+      title: "Procure With Precision",
+      description: "Know when to buy and who to buy from with a solution that provides all the contextual intelligence needed for better negotiations.",
+      icon: <Search className="w-10 h-10 text-primary" />
+    },
+    {
+      title: "Become Proactive",
+      description: "Configure alerts and define parameters with a fully configurable dashboard to arrive at critical insights faster.",
+      icon: <TrendingUp className="w-10 h-10 text-blue-400" />
+    }
+  ];
+
   return (
     <section className="py-24 bg-background relative">
       <div className="container mx-auto px-4">
+        {/* Strategic Insights Section */}
+        <div className="grid md:grid-cols-3 gap-12 mb-32">
+          {insights.map((insight, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1 }}
+              viewport={{ once: true }}
+              className="space-y-4"
+            >
+              <div className="mb-6">{insight.icon}</div>
+              <h3 className="text-2xl font-heading font-bold text-white">{insight.title}</h3>
+              <p className="text-muted-foreground leading-relaxed">{insight.description}</p>
+            </motion.div>
+          ))}
+        </div>
+
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-3xl md:text-5xl font-bold font-heading mb-4">Intelligence Infrastructure</h2>
           <p className="text-muted-foreground text-lg">
-            Whether you need instant answers, custom tooling, or deep data integration, SourceChain provides the specialized AI infrastructure for modern manufacturing.
+            Unrivaled analytics and analysis powered by a global network of professionals and real-world commodity spend.
           </p>
         </div>
 
