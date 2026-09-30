@@ -45,7 +45,7 @@ export function Hero() {
           </p>
 
           <div className="mb-30 flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
-            <a href="https://llm-chat-app-template.sean-westfall.workers.dev/">
+            <a href="https://llm-chat-app-template.acceler.workers.dev/">
               <Button
                 size="lg"
                 className="h-14 px-8 text-lg rounded-none border-2 border-primary bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group w-full sm:w-auto"
